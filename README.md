@@ -40,20 +40,22 @@ Clone it into your agent's skills directory, named `tbd-tutor`.
 ### Claude Code
 
 ```bash
-git clone git@github.com:dinesh-fb/tbd-tutor.git ~/.claude/skills/tbd-tutor
+git clone https://github.com/dinesh-fb/tbd-tutor.git ~/.claude/skills/tbd-tutor
 ```
 
 ### pi
 
 ```bash
-git clone git@github.com:dinesh-fb/tbd-tutor.git ~/.pi/agent/skills/tbd-tutor
+git clone https://github.com/dinesh-fb/tbd-tutor.git ~/.pi/agent/skills/tbd-tutor
 # or the cross-runtime location:
-git clone git@github.com:dinesh-fb/tbd-tutor.git ~/.agents/skills/tbd-tutor
+git clone https://github.com/dinesh-fb/tbd-tutor.git ~/.agents/skills/tbd-tutor
 ```
 
 ### Codex / Gemini CLI / Copilot CLI
 
 Same idea, into `~/.agents/skills/tbd-tutor`.
+
+Already have SSH keys set up? `git@github.com:dinesh-fb/tbd-tutor.git` works too. No git at all? Download the zip and drop the folder in — nothing here needs a build step.
 
 ### Keeping it updated
 
